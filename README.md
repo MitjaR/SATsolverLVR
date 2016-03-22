@@ -28,7 +28,7 @@ Prebere datoteko podano kot vhod in jo pretvori v CNFproblem. <br />
 resitev=solveSat(True,problemCNF,sezPrireditev,0,stSpr) <br />
 resitev==True ce je problem resljiv <br />
 potem je sezPrireditev prireditev za izpolnitev resitve <br />
-prireditev se nato v ustrezni obliki zapise v datoteko izhod.
+prireditev se nato v ustrezni obliki zapise v datoteko izhod. <br />
 
 ##### CNFproblem
 CNFproblem je struktura za zapis problema v CNF obliki. <br />
@@ -37,7 +37,7 @@ self.sezAnd <br />
 1. je problem zapisan v CNF obliki <br />
 2. self.sezAnd sestavljajo mnozice katerih elementi so vezani z or <br />
 3. med temi mnozicami pa imamo logicni veznik and <br />
-self.lokacije*
+self.lokacije... <br />
 1. so lakacije elementov vself.sezAnd <br />
 2. primer self.lokacijeNeg=[{},{4,77},{5}] <br />
 3. pomeni da se -1 pojavi v 4tem in 77tem stavku, <br />
