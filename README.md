@@ -38,8 +38,13 @@ self.sezAnd <br />
 2. self.sezAnd sestavljajo mnozice katerih elementi so vezani z or <br />
 3. med temi mnozicami pa imamo logicni veznik and <br />
 self.lokacije*
-1. so lakacije elementov vself.sezAnd
-2. primer self.lokacijeNeg=[{},{4,77},{5}]
-3. pomeni da se -1 pojavi v 4tem in 77tem stavku,
-4. -2 pa v 5tem stavku (to je 5ti mnozici seznama).
-5. Prva mnozica je vedno prazna sej elementa 0 ni
+1. so lakacije elementov vself.sezAnd <br />
+2. primer self.lokacijeNeg=[{},{4,77},{5}] <br />
+3. pomeni da se -1 pojavi v 4tem in 77tem stavku, <br />
+4. -2 pa v 5tem stavku (to je 5ti mnozici seznama). <br />
+5. Prva mnozica je vedno prazna sej elementa 0 ni <br />
+
+##### solveSat
+Za testiranje ucinkovitosti algoritma je treba testirati to funkcijo, <br />
+saj je tu problem ze v ustrezni obliki (za kar se porabi nekaj casa) <br />
+in ta funkcija ne pise na disk <br />
