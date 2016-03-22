@@ -21,10 +21,10 @@ stevilo kopij CNFproblem. <br />
 
 ### Navodila za uporabo: 
 ##### SATsolverDimacs
-SATsolverDimacs(vhod,izhod="")
-Prebere datoteko podano kot vhod in jo pretvori v CNFproblem.
-CNFproblem je strukturo za zapis problema v CNF obliki.
-resitev=solveSat(True,problemCNF,sezPrireditev,0,stSpr)
-resitev==True ce je problem resljiv
-potem je sezPrireditev prireditev za izpolnitev resitve
+SATsolverDimacs(vhod,izhod="") <br />
+Prebere datoteko podano kot vhod in jo pretvori v CNFproblem. <br />
+CNFproblem je strukturo za zapis problema v CNF obliki. <br />
+resitev=solveSat(True,problemCNF,sezPrireditev,0,stSpr) <br />
+resitev==True ce je problem resljiv <br />
+potem je sezPrireditev prireditev za izpolnitev resitve <br />
 prireditev se nato v ustrezni obliki zapise v datoteko izhod.
