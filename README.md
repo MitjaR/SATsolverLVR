@@ -13,8 +13,8 @@ SATsolverLVR resi problem logicne izpolnjivosti
 6. Poisci razpadni element (nato razdeli problem na vec delov)
 7. Poisci razpadno mnozico (nato razdeli problem na vec delov)
 
-Pri tem je pomembno, da se tocke 4,5,6,7 smejo izvajati samno na
-vec iteracij in ne na vsako saj bi to porabilo prevec casa.
+Pri tem je pomembno, da se tocke 4,5,6,7 smejo izvajati samno na <br />
+vec iteracij in ne na vsako saj bi to porabilo prevec casa. <br />
 
-Tocke je smiselno izvajati ob vejitvah, zato da imamo tudi minimalno
-stevilo kopij CNFproblem.
+Tocke je smiselno izvajati ob vejitvah, zato da imamo tudi minimalno <br />
+stevilo kopij CNFproblem. <br />
