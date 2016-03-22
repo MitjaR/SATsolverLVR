@@ -38,7 +38,7 @@ self.sezAnd <br />
 2. self.sezAnd sestavljajo mnozice katerih elementi so vezani z or <br />
 3. med temi mnozicami pa imamo logicni veznik and <br />
 self.lokacije... <br />
-1. so lakacije elementov vself.sezAnd <br />
+1. so lokacije elementov v self.sezAnd <br />
 2. primer self.lokacijeNeg=[{},{4,77},{5}] <br />
 3. pomeni da se -1 pojavi v 4tem in 77tem stavku, <br />
 4. -2 pa v 5tem stavku (to je 5ti mnozici seznama). <br />
