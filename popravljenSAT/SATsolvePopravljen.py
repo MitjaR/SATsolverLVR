@@ -360,7 +360,7 @@ def resiSATwhile(lKonst,problemCNF,trIndeks,stSpremenljivk,sezPotKonec):
             lKonst=novProblemCNF.potrdiIzjavo(izjava)
 
             if not(resiSATwhile(lKonst,novProblemCNF,trIndeks+1,stSpremenljivk,sezPotKonec)):
-                lKonst=problemCNF.potrdiIzjavo(izjava)
+                lKonst=problemCNF.potrdiIzjavo(-izjava)
                 ##resiSAT(lKonst,problemCNF,trIndeks+1,stSpremenljivk,sezPotKonec)
                 trIndeks=trIndeks+1
                 continue
