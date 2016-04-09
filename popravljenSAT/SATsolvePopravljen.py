@@ -412,18 +412,19 @@ def testProblemov(vhodDimacs,vhodResitev):
         print(sez1)
         print(sez2)
 
-##SATsolverDimacs("sudoku1.txt",izhod="")
-##testProblemov("sudoku1.txt","sudoku1_solution.txt")
+def __main__():
+    ##SATsolverDimacs("sudoku1.txt",izhod="")
+    ##testProblemov("sudoku1.txt","sudoku1_solution.txt")
+    
+    ##SATsolverDimacs("sudoku2.txt",izhod="")
+    testProblemov("sudoku2.txt","sudoku2_solution.txt")
 
-##SATsolverDimacs("sudoku2.txt",izhod="")
-testProblemov("sudoku2.txt","sudoku2_solution.txt")
-
-print()
-####print("""prederiDimascInResiSAT("h_sudoku1.txt")""")
-####print("""prederiDimascInResiSAT("h_sudoku2.txt")""")
-####print("""prederiDimascInResiSAT("sudoku2.txt")""")
-##print("""prederiDimascInResiSATwhile("h_sudoku1.txt")""")
-print("""prederiDimascInResiSATwhile("h_sudoku2.txt")""")
-##print("""prederiDimascInResiSATwhile("sudoku2.txt")""")
-
-print("""prederiDimascInResiSATwhile("neresljiv.txt")""")
+    print()
+    ####print("""prederiDimascInResiSAT("h_sudoku1.txt")""")
+    ####print("""prederiDimascInResiSAT("h_sudoku2.txt")""")
+    ####print("""prederiDimascInResiSAT("sudoku2.txt")""")
+    ##print("""prederiDimascInResiSATwhile("h_sudoku1.txt")""")
+    print("""prederiDimascInResiSATwhile("h_sudoku2.txt")""")
+    ##print("""prederiDimascInResiSATwhile("sudoku2.txt")""")
+    
+    print("""prederiDimascInResiSATwhile("neresljiv.txt")""")
